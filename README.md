@@ -6,6 +6,8 @@ the calculator to spin it, and click the laptop (or the LAPTOP tab) to walk up
 to its terminal. Built with React 19, TypeScript, and Vite, styled with
 Tailwind and daisyUI.
 
+**Try it live: [dada-85.vercel.app](https://dada-85.vercel.app/)**
+
 ![The 3D room: a vintage laptop running a green-screen terminal, with a burning 240Z behind it](public/laptop.png)
 
 ## For my dad
@@ -25,7 +27,7 @@ charming person in any room. People loved him. I will always wish you could
 have met him. He would have shown you so much love, and you would have
 loved him back.
 
-With great love, this project if for him.
+With great love, this project is for him.
 
 ![The laptop in the scene, its terminal showing a memorial to my dad, 1985-2026](public/homage.png)
 
