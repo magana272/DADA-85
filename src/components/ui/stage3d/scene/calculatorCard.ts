@@ -44,6 +44,7 @@ export function createCalculatorCard(
         clearcoatRoughness: 0.25,
     })
     const cutoutMaterial = new THREE.MeshBasicMaterial({
+        color: 0x000000,
         transparent: true,
         opacity: 0,
         blending: THREE.NoBlending,

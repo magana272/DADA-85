@@ -12,21 +12,22 @@ Tailwind and daisyUI.
 
 One of the first apps anyone writes is a calculator app.
 
-My dad suffered a traumatic brain injury in August 2025 and remained in a
-vegetative state. While he was in that condition we found out he had cancer.
-The cancer progressed quickly, and due to his condition he was unable to
-receive any treatment for it. It ultimately took his life in June.
+I was 18 when I wrote mine, 400 miles from home, learning to code. Anything
+I did back then, I did for my dad and my mom. I just wanted to make them proud.
 
-So when I think way back to that young kid learning to code, I think about
-'The Calculator App'. With great love, I dedicate this project to him.
+In August 2025 my dad suffered a traumatic brain injury. He never woke up.
+While he was in that state, we found out he had cancer. It moved fast, and
+because of his condition there was nothing anyone could do to treat it. He
+died in June.
 
-Anything I did was for him and my mom. Always wanting to make them proud.
-He was the greatest man I have ever met, and probably ever will. He was the
-most charming person. People loved him, and I always wish everyone could have
-met him. I am sure he would have shown you so much love, and I know how much
-you would have loved him.
+He was the greatest man I have ever met, and probably ever will. The most
+charming person in any room. People loved him. I will always wish you could
+have met him. He would have shown you so much love, and you would have
+loved him back.
 
-I miss him every day.
+With great love, this project if for him.
+
+![The laptop in the scene, its terminal showing a memorial to my dad, 1985-2026](public/homage.png)
 
 ## Features
 
