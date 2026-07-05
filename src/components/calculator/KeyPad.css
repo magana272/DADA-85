@@ -1,0 +1,85 @@
+.calculator .btn {
+    height: 2.9rem;
+    min-width: 0;
+    padding-inline: 0.15rem;
+    border: 1px solid var(--ti-edge);
+    border-radius: 0.55rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.06s ease;
+}
+.calculator .btn:active {
+    transform: translateY(3px);
+}
+
+.btn-number {
+    background-image:
+        var(--ti-grain),
+        radial-gradient(120% 90% at 50% 0%, rgba(255, 255, 255, 0.55), transparent 55%),
+        linear-gradient(180deg, var(--ti-key-light-top) 0%, #e6e2d7 55%, var(--ti-key-light-bottom) 100%);
+    background-color: var(--ti-key-light-bottom);
+    color: #1c1d1f;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+    box-shadow:
+        0 4px 0 #a49f91,
+        0 7px 12px rgba(0, 0, 0, 0.5),
+        inset 0 2px 0 rgba(255, 255, 255, 0.9),
+        inset 2px 0 3px -1px rgba(255, 255, 255, 0.5),
+        inset -2px 0 3px -1px rgba(0, 0, 0, 0.12),
+        inset 0 -3px 4px rgba(0, 0, 0, 0.18);
+}
+.btn-number:active,
+.btn-number.btn-active {
+    background-image:
+        var(--ti-grain),
+        linear-gradient(180deg, var(--ti-key-light-bottom), #c9c5ba);
+}
+.btn-number:active {
+    box-shadow:
+        0 1px 0 #a49f91,
+        0 2px 4px rgba(0, 0, 0, 0.4),
+        inset 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-symbol {
+    background-image:
+        var(--ti-grain),
+        radial-gradient(120% 90% at 50% 0%, rgba(255, 255, 255, 0.22), transparent 55%),
+        linear-gradient(180deg, var(--ti-key-dark-top) 0%, #484c54 55%, var(--ti-key-dark-bottom) 100%);
+    background-color: var(--ti-key-dark-bottom);
+    color: #f2f3f5;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+    box-shadow:
+        0 4px 0 #17181a,
+        0 7px 12px rgba(0, 0, 0, 0.5),
+        inset 0 2px 0 rgba(255, 255, 255, 0.28),
+        inset 2px 0 3px -1px rgba(255, 255, 255, 0.14),
+        inset -2px 0 3px -1px rgba(0, 0, 0, 0.3),
+        inset 0 -3px 4px rgba(0, 0, 0, 0.35);
+}
+.btn-symbol:active {
+    background-image:
+        var(--ti-grain),
+        linear-gradient(180deg, #44474e, #33363b);
+    box-shadow:
+        0 1px 0 #17181a,
+        0 2px 4px rgba(0, 0, 0, 0.4),
+        inset 0 2px 4px rgba(0, 0, 0, 0.45);
+}
+.btn-symbol.btn-active {
+    background-image:
+        var(--ti-grain),
+        radial-gradient(120% 90% at 50% 0%, rgba(255, 255, 255, 0.35), transparent 55%),
+        linear-gradient(180deg, #b3c49e, var(--ti-lcd));
+    background-color: var(--ti-lcd);
+    color: var(--ti-lcd-ink);
+    border-color: #5c6b48;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.calculator .btn-disabled,
+.calculator .btn:disabled {
+    opacity: 0.4;
+    transform: none;
+}

@@ -1,0 +1,18 @@
+:root {
+    --ti-case-top: #3b3e45;
+    --ti-case-bottom: #26282c;
+    --ti-edge: #101113;
+    --ti-key-light-top: #f0ede4;
+    --ti-key-light-bottom: #d9d5ca;
+    --ti-key-dark-top: #565a63;
+    --ti-key-dark-bottom: #3d4046;
+    --ti-lcd: #9fb18c;
+    --ti-lcd-ink: #202617;
+    --ti-lcd-faint: #47542f;
+    --ti-grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/><feColorMatrix type='saturate' values='0'/><feComponentTransfer><feFuncA type='linear' slope='0.07'/></feComponentTransfer></filter><rect width='120' height='120' filter='url(%23n)'/></svg>");
+    --ti-speckle: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='90' height='90'><filter id='s'><feTurbulence type='turbulence' baseFrequency='0.28' numOctaves='3'/><feColorMatrix type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  4 4 4 -5.2 0'/></filter><rect width='90' height='90' filter='url(%23s)' opacity='0.16'/></svg>");
+}
+
+body {
+    background: #0b0c0e;
+}
